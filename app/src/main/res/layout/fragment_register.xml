@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buggy_register_caption"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff000000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_first_name"
+        android:hint="first name"
+        android:inputType="textPersonName|textCapWords"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_last_name"
+        android:hint="last name"
+        android:inputType="textPersonName|textCapWords"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_spinner"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dialog"
+        android:prompt="@string/security_question_caption"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_answer"
+        android:layout_gravity="center_horizontal"
+        android:hint="answer"
+        android:inputType="textCapWords"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/register_btn"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

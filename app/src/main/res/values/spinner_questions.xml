@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="security_questions">
+        <item>In what city or town did you meet your spouse/partner?</item>
+        <item>What was the make and model of your first car?</item>
+        <item>In what city or town does your nearest sibling live?</item>
+        <item>What was your maternal grandfather’s first name?</item>
+    </string-array>
+</resources>
