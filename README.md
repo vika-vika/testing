@@ -1,4 +1,4 @@
-# testing
+# Test Me
 project with some hardcoded bugs for QA testing
 
 fast prototype, ignore all hardcoded strings and so on pls
